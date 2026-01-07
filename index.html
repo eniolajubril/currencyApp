@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c&c practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <form id="converter-form">
+        <input type="number" placeholder="Amount"id="amount"required />
+
+        <select name="" id="from-currency">
+
+        <option value="NGN">NGN Nigerian Naira</option>
+        <option value="USD">USD United States Dollar</option>
+        <option value="GBP">GBP British pounds sterling</option>
+        </select>
+
+        <span>to</span>
+        <select name="" id="to-currency">
+            <option value="GBP">GBP British pounds</option>
+            <option value="NGN">NGN NIgerian Naira</option>
+            <option value="USD">USD United States Dollar</option>
+        </select>
+
+        <button type="submit">Convert</button>
+        </form>
+
+        <div id="result"></div>
+        
+        <script src="./script.js"></script>
+
+
+    
+</body>
+</html>

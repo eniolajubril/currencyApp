@@ -1,0 +1,47 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:green;
+    padding: 50px;
+    margin:0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+form{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+input,select{
+    padding:10px;
+    font-size:16px;
+    border:1px solid black;
+    border-radius: 4px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    color:black;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+#result{
+    font-size:1.2rem;
+    margin-top:20px;
+}
+
